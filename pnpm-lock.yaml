@@ -1,0 +1,44 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  '@cdktf/provider-project':
+    specifier: ^0.2.131
+    version: 0.2.131(projen@0.71.163)
+
+packages:
+
+  /@cdktf/provider-project@0.2.131(projen@0.71.163):
+    resolution: {integrity: sha512-jryd50w5YfZWavPtIosvWaVuKPLxiYCXYGc7tRo/buMppwnhHe0ytM/ObRzVCBj5MYU1yIe+aXfLgstSq030BQ==}
+    engines: {node: '>= 16.14.0'}
+    peerDependencies:
+      projen: ^0.71.46
+    dependencies:
+      projen: 0.71.163
+    dev: false
+    bundledDependencies:
+      - change-case
+      - fs-extra
+
+  /projen@0.71.163:
+    resolution: {integrity: sha512-Sj0UthyhhvHYAhgvuQtQk6R4ia/AkHGT/JG3PFbEjIIYcPSImonW+1OIrZ+S+ofWZJPWZj07RBYLiZ+qAVm8NQ==}
+    engines: {node: '>= 14.0.0'}
+    hasBin: true
+    dev: false
+    bundledDependencies:
+      - '@iarna/toml'
+      - case
+      - chalk
+      - comment-json
+      - conventional-changelog-config-spec
+      - fast-json-patch
+      - glob
+      - ini
+      - semver
+      - shx
+      - xmlbuilder2
+      - yaml
+      - yargs
